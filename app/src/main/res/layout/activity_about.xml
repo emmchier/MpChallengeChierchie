@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyt_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/aboutHeaderHeight"
+        android:background="@color/colorAccent">
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="-120dp">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="@dimen/aboutCircularImage"
+            android:layout_height="@dimen/aboutCircularImage"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/profile"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/aboutName"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutProfession"
+            android:gravity="center"
+            android:textColor="@color/darkTitle"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutMail"
+            android:gravity="center"
+            android:textColor="@color/darkTitle"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+549 - 2216781108"
+            android:gravity="center"
+            android:textColor="@color/darkTitle"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutGitHub"
+            android:gravity="center"
+            android:textColor="@color/darkTitle"
+            android:layout_marginTop="25dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LINKED IN: emmchier"
+            android:gravity="center"
+            android:textColor="@color/darkTitle"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BEHANCE: emmchier"
+            android:gravity="center"
+            android:textColor="@color/darkTitle"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

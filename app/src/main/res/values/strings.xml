@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- App-->
+    <string name="app_name">Mercado Libre</string>
+    <string name="all">all</string>
+    <string name="resetAmount">0.0</string>
+    <string name="toast">Algo salió mal. Volvelo a intentar</string>
+    <string name="error">Hubo un error. Intentalo nuevamente</string>
+    <string name="cancel">Cancelar</string>
+    <string name="validate">Debes ingresar un monto</string>
+
+    <!-- Announce-->
+    <string name="announceMethod">Elegí tu tarjeta de crédito</string>
+    <string name="announceIssuer">Elegí tu banco</string>
+    <string name="announceInstallments">Elegí tu plan de cuotas</string>
+    <string name="announceText">Announce text</string>
+    <string name="amountAnnounce">Ahora podes realizar pagos\n con tu tarjeta de crédito</string>
+
+    <!-- ActivityAbout-->
+    <string name="aboutName">Emmanuel Chierchie</string>
+    <string name="aboutProfession">Android Dev</string>
+    <string name="aboutMovil">+549 - 2216781108</string>
+    <string name="aboutMail">emmchierchie@gmail.com</string>
+    <string name="aboutGitHub">GITHUB: emmchier</string>
+    <string name="aboutLinkedIn">LINKED IN: emmchier</string>
+    <string name="aboutBehance">BEHANCE: emmchier</string>
+
+    <!-- CountBar-->
+    <string name="montoAPagar">Monto a pagar</string>
+    <string name="peso">$</string>
+    <string name="cero">0.00</string>
+
+    <!-- Credit Card & Bank name-->
+    <string name="creditCardName">Credit card name</string>
+    <string name="cardBankName">Bank name</string>
+
+    <!-- Dialog-->
+    <string name="recommendedMessage">Recommended message</string>
+    <string name="dialogAmount">Pagas un total de</string>
+    <string name="dialogAmountValue">0.00</string>
+    <string name="dialogMethod">con tu tarjeta</string>
+    <string name="dialogMethodValue">credit card value</string>
+    <string name="dialogIssuer">del banco</string>
+    <string name="dialogIssuerValue">bank value</string>
+    <string name="dialogInstallments">con un plan de</string>
+    <string name="dialogInstallmentsValue">message</string>
+
+    <!-- FragmentAmount-->
+    <string name="insertAmount">Ingresá un monto...</string>
+    <string name="toastText">Toast text</string>
+
+
+
+</resources>

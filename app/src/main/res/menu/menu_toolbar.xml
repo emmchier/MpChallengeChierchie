@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/getProfile"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        android:iconTint="#fff"
+        android:title="Perfil"
+        app:showAsAction="always"/>
+
+</menu>

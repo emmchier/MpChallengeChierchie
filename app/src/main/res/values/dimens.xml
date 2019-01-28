@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- About -->
+    <dimen name="aboutHeaderHeight">160dp</dimen>
+    <dimen name="aboutCircularImage">200dp</dimen>
+    <dimen name="aboutName">16dp</dimen>
+
+    <!-- CountBar -->
+    <dimen name="amountBarSize">23dp</dimen>
+    <dimen name="announceSize">20dp</dimen>
+
+    <!-- Credit Card -->
+    <dimen name="cardCreditCardWidth">185dp</dimen>
+    <dimen name="cardCreditCardHeight">220dp</dimen>
+    <dimen name="creditCardImgSize">60dp</dimen>
+    <dimen name="creditCardTextSize">18dp</dimen>
+
+    <!-- Card Bank -->
+    <dimen name="cardBankWidth">185dp</dimen>
+    <dimen name="cardBankHeight">150dp</dimen>
+    <dimen name="cardBankImageSize">80dp</dimen>
+    <dimen name="cardBankTextSize">18dp</dimen>
+
+</resources>
